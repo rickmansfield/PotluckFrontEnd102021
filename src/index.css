@@ -1,0 +1,68 @@
+@import url("../src/reset.css");
+
+/* Tablet breakpoint: 768px */
+/* Mobile breakpoint 480px */
+
+/* Using root so we can have one place for constant css styles */
+:root {
+  --nav-height: 70px;
+  --primary-color: #ffffff;
+  --secondary-color: #c9a97a;
+  --secondary-color-opac: #c9a97aa9;
+  --accent-color: #8a9748;
+  --accent-color-dark: #58602e;
+  --main-text-color: black;
+  --white: #ffffff;
+  --black: black;
+  --tablet-break-point: 768px;
+}
+
+/* Universal Styling */
+
+h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.25rem;
+  letter-spacing: -0.063rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.375rem;
+  letter-spacing: -0.039rem;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: -0.05rem;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 0.938rem;
+  letter-spacing: -0.016rem;
+}
+
+a {
+  font-weight: 500;
+}
+
+p {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.016rem;
+}
+
+/* Body Styles */
+body {
+  font-family: "Spartan", sans-serif;
+  background-color: var(--primary-color);
+  color: var(--main-text-color);
+  display: flex;
+  flex-direction: column;
+}
