@@ -1,8 +1,13 @@
 # Getting Started Poltluck Planner
+
+## Visit Live Site 
+
+- [LINK](https://front-end-pearl-eight.vercel.app/)
 ![image](../potluck-planner/src/assets/Images/Login-background.jpg)
 
 
 - [Getting Started Poltluck Planner](#getting-started-poltluck-planner)
+  - [Visit Live Site](#visit-live-site)
   - [About](#about)
   - [Language](#language)
   - [Contributors](#contributors)
